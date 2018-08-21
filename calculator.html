@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calculator</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+<body>
+    <header>
+        <h1>Calculator</h1>
+    </header>
+    <main>
+        <section>
+            <div id="output" class="display">
+            OUTPUT:
+            </div>
+            <div class="buttons">
+                    <input id="text-box" value="" class="text-box" onkeydown="scriptEvent()" type="text" placeholder="Enter Expression" />
+                    <input id="number" type="button" value="1" name="1" onclick="inputValue(this)" />
+                    <input id="number" type="button" value="2" name="2" onclick="inputValue(this)" />
+                    <input id="number" type="button" value="3" name="3" onclick="inputValue(this)"/>
+                    <input type="button" value="AC" name="allClear" onclick="clearExpression()"/>
+                    <input id="number" type="button" value="4" name="4" onclick="inputValue(this)"/>
+                    <input id="number" type="button" value="5" name="5" onclick="inputValue(this)"/>
+                    <input id="number" type="button" value="6" name="6" onclick="inputValue(this)"/>
+                    <input type="button" value="CLR" name="Clear" onclick="clearPrevious()"/>
+                    <input id="number" type="button" value="7" name="7" onclick="inputValue(this)"/>
+                    <input id="number" type="button" value="8" name="8" onclick="inputValue(this)"/>
+                    <input id="number" type="button" value="9" name="9" onclick="inputValue(this)"/>
+                    <input id="number" type="button" value="*" name="*" onclick="inputValue(this)"/>
+                    <input id="number" type="button" value="/" name="/" onclick="inputValue(this)"/>
+                    <input id="number" type="button" value="0" name="0" onclick="inputValue(this)"/>
+                    <input id="number" type="button" value="-" name="-" onclick="inputValue(this)"/>
+                    <input id="number" type="button" value="+" name="+" onclick="inputValue(this)"/>
+                    <input type="button" value="History" name="history"  onclick="getHistory()"/>
+                    <input type="button" value=" " name=""/>
+                    <input type="button" value=" " name=""/>
+                    <input id="calculate" type="button" value="=" name="=" onclick="calculate()"/>
+                 
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>Please reload the page to check history of the calculation</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

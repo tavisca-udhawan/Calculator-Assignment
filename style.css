@@ -1,0 +1,47 @@
+  
+    body{
+          margin:0 auto;
+          background-color:#8C5039;
+    }
+    header{
+          background-color:#D06F0E;
+          color: #ffffff;
+    }
+    main{
+          height: auto;
+          margin:0 auto;
+          width:40%;
+          border: 2px solid #000000;
+          display: flex;
+          flex-wrap: wrap;
+    }
+    h1{
+          text-align: center;
+    }
+    input[type=button]{
+          background-color: aquamarine;
+          width:25%;
+          font-size:1.8em;
+          height:2em;
+    }
+    .display{
+          height:2em;
+          font-size: 1.8em;
+          background-color:#000000;
+          color:#ffffff;
+    }
+    .buttons{
+          display: flex;
+          flex-wrap: wrap;
+    }
+    .text-box{
+          width:100%;
+          font-size:2em;
+    }
+    .output-box{
+          height: inherit;
+    }
+    footer p{
+        font-size:2em;
+        text-align: center;
+    }
